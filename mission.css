@@ -1,0 +1,39 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+img{
+	max-width: 100%;
+}
+
+
+
+.history-image{
+	background-image: url('images/mission.jpg');
+	background-color: rgba(0, 0, 0, 1);
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-color: rgba(0, 0, 0, 0.4);
+	background-blend-mode: multiply;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+}
+
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: gray;
+}
+.history-container{
+	padding: 40px 0;
+	text-align: justify;
+}
